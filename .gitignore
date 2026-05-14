@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Python (staleness-audit script artifacts)
+__pycache__/
+*.pyc
+*.pyo
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# Link-check / staleness-audit transient outputs
+lychee-report.md
+staleness-report.md
+.lycheecache
