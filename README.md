@@ -124,14 +124,12 @@ Datasets for predicting case outcomes, charges, or penalties from court document
 - [ECtHR Dataset](https://huggingface.co/datasets/coastalcph/ecthr_cases) - **[🇪🇺 ECHR]** - **[EN]** - **[11K cases]** - Article violation prediction
 - [ILDC (Indian Legal Documents Corpus)](https://github.com/Exploration-Lab/CJPE) - **[🇮🇳 India]** - **[EN]** - **[34K cases]** - Court judgment prediction and explanation
 - [NyayaAnumana](https://huggingface.co/datasets/Dnyanesh1/NyayaAnumana) - **[🇮🇳 India]** - **[EN]** - **[700K+ cases]** - Largest corpus of Indian legal cases for LJP
-- [FSCS - Swiss Judgment Prediction](https://huggingface.co/datasets/swiss_judgment_prediction) - **[🇨🇭 Switzerland]** - **[DE/FR/IT]** - **[85K cases]** - Binary outcome prediction across 3 languages
 - [CaseSumm](https://huggingface.co/datasets/ChicagoHAI/CaseSumm) - **[🇺🇸 US SCOTUS]** - **[EN]** - **[25.6K opinions]** - Paired opinions + official syllabuses
 - [IndianBailJudgments-1200](https://huggingface.co/datasets/SnehaDeshmukh/IndianBailJudgments-1200) - **[🇮🇳 India]** - **[EN]** - **[1.2K judgments]** - Bail decisions with 20+ structured attributes
 - [The Supreme Court Database](http://scdb.wustl.edu) - **[🇺🇸 US]** - **[EN]** - **[All SCOTUS cases since 1791]** - Votes, outcomes, justice ideology
 ### Legal Text Classification
 
 - [LexGLUE](https://github.com/coastalcph/lex-glue) - **[🌍 Multi]** - **[EN]** - 7-task benchmark: EURLEX, ECHR, LEDGAR, SCOTUS, ContractNLI, CaseHOLD, ECtHR
-- [MultiEURLEX](https://huggingface.co/datasets/multi_eurlex) - **[🇪🇺 EU]** - **[23 langs]** - 65K EU laws with 4.5K labels; multilingual classification
 - [LEDGAR](https://huggingface.co/datasets/coastalcph/ledgar) - **[🇺🇸 US]** - **[EN]** - 60K+ contract provisions with 12.6K labels
 - [CUAD](https://www.atticusprojectai.org/cuad) - **[🇺🇸 US]** - **[EN]** - 510 annotated contracts, 41 clause types, 13K+ expert labels
 - [AsyLex](https://huggingface.co/datasets/joelito/AsyLex) - **[🇨🇭 Swiss]** - **[FR/DE]** - 59K documents; 19K human-anotated entities for Refugee Law
@@ -214,10 +212,6 @@ Domain-specific encoder models for legal text similarity, classification, and re
 - [CourtListener MCP (DefendTheDisabled)](https://github.com/DefendTheDisabled/courtlistener-mcp) - Connects AI agents to CourtListener with semantic search, hybrid search, and citation verification to mitigate hallucination.
 - [CourtListener MCP (Travis-Prall)](https://github.com/Travis-Prall/court-listener-mcp) - MCP Server for accessing CourtListener case data, court opinions, and eCFR federal regulations.
 - [CourtListener MCP (khizar-anjum)](https://github.com/khizar-anjum/courtlistener-mcp) - MCP server built for searching cases by natural language legal problems across 3,352 U.S. courts.
-- [CanLII MCP Server](https://github.com/Alhwyn/canlii-mcp-server) - Connects AI assistants to the Canadian Legal Information Institute (CanLII) to retrieve Canadian legislation and case law.
-- [uk-case-law-mcp-server](https://github.com/nationalarchives/uk-case-law-mcp-server) - MCP server that enables LLMs to search, retrieve, and cite UK legal judgments via The National Archives API.
-- [US Legal MCP Server](https://github.com/a10y/us-legal-mcp) - Provides access to US Congress bills, Federal Register documents, and court opinions.
-- [Open Legal Compliance MCP](https://github.com/qpd-v/open-legal-compliance-mcp) - Facilitates legal compliance analysis using free government APIs for US and EU law.
 - [agentic-ops/legal-mcp](https://github.com/agentic-ops/legal-mcp) - Comprehensive MCP server for legal workflows. Integrates AI assistants with legal databases and case management systems (Clio, etc.).
 - [LegalContext MCP](https://mcp.so/server/legalcontext) - Open-source MCP server bridging law firm document management systems with AI assistants.
 - [adeu (Agentic DOCX Redlining Engine)](https://github.com/dealfluence/adeu) - MCP Server enabling LLMs to inject native Track Changes and Comments into Word documents.
@@ -882,7 +876,6 @@ Direct links to canonical government legal-data sources for jurisdictions where 
 - [HUDOC (ECHR)](https://hudoc.echr.coe.int/) - European Court of Human Rights judgments, decisions, and summaries.
 - [N-Lex](https://n-lex.europa.eu/) - One-stop portal to official national law databases for all EU member states.
 - [OP (Publications Office)](https://data.europa.eu/en) - EU Open Data Portal including legal metadata and bulk APIs.
-- [ECLI Search](https://e-justice.europa.eu/316/EN/european_case_law_identifier__ecli) - Standardized search for courts across EU member states.
 
 #### Germany
 - [OpenJur](https://openjur.de) - Open-source database of German court decisions. Community-maintained.
@@ -898,7 +891,6 @@ Direct links to canonical government legal-data sources for jurisdictions where 
 - [India Code](https://www.indiacode.nic.in/) - Central repository of all Central and State Acts and subordinate legislation.
 - [Supreme Court of India](https://sci.gov.in) - Official portal with judgments from the Supreme Court of India.
 - [eCourts Services](https://services.ecourts.gov.in) - Unified portal for Indian district and High Court case status.
-- [OpenNyAI Datasets](https://opennyai.org/datasets) - Indian legal NLP datasets for summarization, QA, and translation.
 
 #### Turkey
 - [Avukatistan](https://avukatistan.com) - Turkish legal research and lawyer discovery platform with case law, legislation, legal questions, and practitioner profiles.
@@ -1010,7 +1002,6 @@ Platforms handling digital execution of documents and Remote Online Notarization
 
 - [DocuSign](https://www.docusign.com) - **[Established]** The global standard for e-signatures and agreement clouds.
 - [Proof (formerly Notarize)](https://www.proof.com) - **[Established]** Pioneer of Remote Online Notarization (RON).
-- [DocVerify](https://www.docverify.com) - **[Established]** E-notary and secure electronic signature platform.
 - [OpenSign](https://github.com/OpenSignLabs/OpenSign) - **[Open Source]** Free open-source DocuSign alternative (Parse Server + React); 6.3k+ stars.
 
 ---
@@ -1211,8 +1202,6 @@ Structured vocabularies, ontologies, and knowledge graphs for representing legal
 - [EuroVoc](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc) - EU's multilingual thesaurus covering subjects of EU legislation. 7,000+ concepts in 24 languages. Used for tagging EUR-Lex documents.
 - [LKIF-Core](https://github.com/RinkeHoekstra/lkif-core) - Legal Knowledge Interchange Format; OWL ontology for basic legal concepts (norms, agents, documents, time). Foundation for many legal knowledge systems.
 - [SALI LMSS (Legal Matter Standard Specification)](https://www.sali.org) - Structured ontology for legal matter types, service types, and industry codes. Open standard for legal operations data.
-- [LegalDocML / Akoma Ntoso](https://www.un.org/dgacm/en/content/akoma-ntoso) - XML + ontology for legislative and judicial document structure. Adopted by the UN, EU Parliament, national parliaments.
-- [JurWordNet](https://github.com/fcroce/JurWordNet) - Legal extension of WordNet with Italian legal terminology; one of the few legal lexical ontologies in a non-English language.
 - [Wikidata Legal Entities](https://www.wikidata.org/wiki/Wikidata:WikiProject_Law) - WikiProject Law: structured data on courts, cases, legislation, and legal concepts in Wikidata. Machine-readable and freely licensed.
 - [PROLEG (Japanese Legal Ontology)](https://arxiv.org/abs/1404.0370) - Formal representation of Japanese civil law rules for logic-based legal reasoning. Developed at NII Tokyo.
 - [ELI Ontology](https://data.europa.eu/eli/ontology) - European Legislation Identifier vocabulary for national/EU legislation metadata, built on FRBR; v1.5 + ELI Impact Ontology v1.0 (2024).
@@ -1230,7 +1219,6 @@ Open standards and specifications relevant to legal technology and AI integratio
 - [LEDES (Legal Electronic Data Exchange Standard)](https://ledes.org) - Standard formats for legal billing (e-billing).
 - [EU AI Act](https://artificialintelligenceact.eu) - World's first comprehensive AI regulation law. In force Aug 2024; full applicability Aug 2026. Directly impacts legal AI tools.
 - [LegalXML / OASIS LegalDocML](https://docs.oasis-open.org/legaldocml/) - XML schema standard for legal documents (bills, statutes, regulations). Used by parliaments globally.
-- [Akoma Ntoso (AKN)](https://www.un.org/dgacm/en/content/akoma-ntoso) - XML vocabulary for parliamentary, legislative, and judicial documents. Used by UN, EU, and national parliaments.
 - [EDRM (Electronic Discovery Reference Model)](https://edrm.net) - Industry standard framework for e-discovery workflows, data models, and specifications.
 
 ---
@@ -1254,8 +1242,6 @@ Platforms that index, curate, review, or list legal technology products — usef
 - [LegalGeek](https://www.legalgeek.co) - **[Community + Events]** - UK legaltech conference and community with vendor showcases and market coverage.
 - [Stanford CodeX](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/) - **[Academic]** - Stanford Center for Legal Informatics. Hosts the FutureLaw conference and computational law research.
 - [Legal Design Lab (Stanford)](https://law.stanford.edu/organizations/pages/legal-design-lab/) - **[Academic]** - Stanford lab focused on technology and design for access to justice.
-- [Harvard Law - Innovation Programs](https://hls.harvard.edu/the-hls-innovation-program/) - **[Academic]** - Harvard Law School programs tracking legal tech and legal innovation initiatives.
-- [Harvard Law - Innovation Programs](https://hls.harvard.edu/the-hls-innovation-program/) - **[Harvard Law School programs tracking legal tech and legal innovation initiatives.]** - Academic
 - [Stanford RegLab](https://reglab.stanford.edu/) - **[Academic]** Stanford Regulation, Evaluation, and Governance Lab; partners with IRS, courts, and local governments; behind the 2024 Westlaw/Lexis+ AI hallucination studies.
 - [Yale Information Society Project (ISP)](https://law.yale.edu/isp) - **[Academic]** Yale Law School's flagship law-tech-society center (founded 1997, Jack Balkin); runs MFIA Clinic and Majority World Initiative.
 - [Berkeley Center for Law & Technology (BCLT)](https://www.law.berkeley.edu/research/bclt/) - **[Academic]** UC Berkeley's interdisciplinary center for IP, privacy, cybersecurity, and AI law; co-sponsors PLSC and IPSC.
@@ -1275,7 +1261,6 @@ Funding, incubators, regulatory sandboxes, and court-modernization programs that
 
 - [The LegalTech Fund](https://www.legaltech.com/) - **[VC]** First VC dedicated exclusively to legal tech (Fort Lauderdale); closed $110M Fund II in Nov 2025; 80+ portfolio companies.
 - [NextLaw Ventures](https://www.nextlawventures.vc/) - **[VC]** Dentons-founded early-stage VC focused exclusively on legaltech (ROSS, Doxly, Apperio, Clause).
-- [Thomson Reuters Ventures](https://www.thomsonreuters.com/en/about-us/corporate-venture-capital.html) - **[Corporate VC]** Corporate arm investing across legal, tax, and risk; LP in The LegalTech Fund; direct investor in Spellbook, Supio, others.
 
 ### Law Firm Innovation Labs
 
